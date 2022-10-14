@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { Icon } from '@mui/material';
 import AccessTimeFilledIcon from '@mui/icons-material/AccessTimeFilled';
 import EventIcon from '@mui/icons-material/Event';
@@ -6,15 +6,15 @@ import PublicIcon from '@mui/icons-material/Public';
 
 const MeetingDetails = () => {
 
-const IconStyle = {
-    height:'35px', 
-    width:'35px',
-    color:'gray'
-}
+    const IconStyle = {
+        height:'35px', 
+        width:'35px',
+        color:'gray'
+    }
 
-const GrayText = {
-    color:'gray'
-}
+    const GrayText = {
+        color:'gray'
+    }
   return (
     <div className='flex flex-col p-6 w-1/3'>
         <div className="flex font-medium text-50 ml-3" style={GrayText}>
