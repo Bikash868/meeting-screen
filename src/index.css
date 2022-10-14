@@ -2,3 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@media screen and (max-width: 1000px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .meeting {
+        width: 100%;
+    }
+    .user {
+        width: 100%;
+    }
+  }

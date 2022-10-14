@@ -41,7 +41,7 @@ const UserDetails = () => {
     }
 
   return (
-    <div className='flex flex-col border-l-2 p-6 w-2/3 mt-0'>
+    <div className='flex flex-col border-l-2 p-6 w-2/3 mt-0 user'>
       <div className="flex mt-1 text-2xl font-bold text-500">
         Enter Details
       </div>

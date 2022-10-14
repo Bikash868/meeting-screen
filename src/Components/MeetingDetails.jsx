@@ -16,7 +16,7 @@ const MeetingDetails = () => {
         color:'gray'
     }
   return (
-    <div className='flex flex-col p-6 w-1/3'>
+    <div className='flex flex-col p-6 w-1/3 meeting'>
         <div className="flex font-medium text-50 ml-3" style={GrayText}>
             {`Bikash Das`}
         </div>
