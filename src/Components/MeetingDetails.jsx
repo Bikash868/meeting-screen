@@ -45,7 +45,7 @@ const MeetingDetails = () => {
                 <PublicIcon/>
             </Icon>
             <div className="text-md font-medium text-30 mt-2" style={GrayText}>
-                {`India Standatrd Time`}
+                {`India Standard Time`}
             </div>
         </div>
     </div>
